@@ -197,3 +197,8 @@ li {
     visibility: hidden;
 }
 
+@media only screen and (max-device-width: 480px) { 
+    body { -webkit-text-size-adjust:100%; } /* increase the base font size on landscape phones */
+    #doc { width: 980px; }
+    #inner { margin: 0px auto; }
+}
