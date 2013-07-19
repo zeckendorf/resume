@@ -206,4 +206,12 @@ li {
     #me .content.title, #me .content, #pdf { float: center; text-align: center; width: 100%; }
     #pdf { display: none; }
     .contact-info { font-size: 24px; display: none; }
+    .content.title, .content { float: center; width: 100%; }
+    h2 { font-size: 42px; }
+    h3 { font-size: 36px; }
+    h4 { font-size: 30px; position: static !important; text-align: left; }
+    .ed h4 { display: none; }
+    p { font-size: 24px; line-height: 28px; padding-right: 0; }
+    .talent { font-size: 24px; }
+    li { line-height: 42px; }
 }
