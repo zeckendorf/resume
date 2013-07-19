@@ -188,6 +188,10 @@ li {
     margin-bottom: 6px;
 }
 
+#mobile {
+    display: none;
+}
+
 /* @group Clearing – taken from YUI grids.css */
 #header:after, #body:after, #footer:after, #me:after, .last:after {
     content: ".";
@@ -198,6 +202,8 @@ li {
 }
 
 @media only screen and (max-device-width: 480px) { 
+    #desktop { display: none; }
+    #mobile { display: block !important; }
     body { -webkit-text-size-adjust:100%; background: #f5f5f5; } 
     #doc { width: 100%; }
     #inner { margin: 0px auto; border: none; }
@@ -209,9 +215,11 @@ li {
     .content.title, .content { float: center; width: 100%; }
     h2 { font-size: 42px; }
     h3 { font-size: 36px; }
-    h4 { font-size: 34px; position: static !important; text-align: left; }
-    .ed h4 { display: none; }
+    h4 { font-size: 36px; position: static !important; text-align: left; float: right; }
+    h3, h4 { display: inline; }
+    .ed h4 { position: absolute !important; top: 0px; right: 0px; line-height: 46px; }
     p { font-size: 28px; line-height: 32px; padding-right: 0; }
     .talent { font-size: 28px; }
-    li { line-height: 42px; }
+    li { line-height: 48px; }
+    .content.title h2 { font-size: 48px; }
 }
