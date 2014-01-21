@@ -14,8 +14,8 @@ body, div, ul, li, h1, h2, h3, h4, h5, h6, p {
 
 body {
     font: 13px/1.231 serif;
-    font-family: Georgia;
-    font-weight: normal;
+    font-family: "Helvetica Neue";
+    font-weight: 190;
     color: #446;
     text-align: center;
 }
