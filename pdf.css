@@ -173,6 +173,16 @@ li {
     text-align: right; 
 }
 
+.job li {
+    border: 0;
+    line-height: inherit;
+}
+
+.job ul {
+    margin: 0.75em 0 0 0;
+    padding-left: 18px;
+}
+
 .job p {
     margin: 0.75em 0 0 0; 
 }
