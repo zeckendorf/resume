@@ -93,12 +93,20 @@ a {
 }
 
 li {
-    line-height: 24px;
-    border-bottom: 1px solid #ccc;
+    /* line-height: 24px; */
+   /* aborder-bottom: 1px solid #ccc; */
+    margin: 7px;
     font-size: 105%;
 }
 
 /* content formatting */
+.skill li {
+    line-height: 24px;
+    border-bottom: 1px solid #ccc;
+    font-size: 105%;
+
+}
+
 .section {
     float: left;
     width: 100%;
